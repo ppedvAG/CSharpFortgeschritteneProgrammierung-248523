@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sprachfeatures", "Sprachfea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopLevelStatements", "TopLevelStatements\TopLevelStatements.csproj", "{1F5E703D-EC60-4AAA-BE03-E34DF0C0261A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{26348294-58AC-44BE-9926-51FCE3486F76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesEvents", "DelegatesEvents\DelegatesEvents.csproj", "{14904B11-53F4-42DB-A7F4-B83AE1528D10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{1F5E703D-EC60-4AAA-BE03-E34DF0C0261A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F5E703D-EC60-4AAA-BE03-E34DF0C0261A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F5E703D-EC60-4AAA-BE03-E34DF0C0261A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26348294-58AC-44BE-9926-51FCE3486F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26348294-58AC-44BE-9926-51FCE3486F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26348294-58AC-44BE-9926-51FCE3486F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26348294-58AC-44BE-9926-51FCE3486F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14904B11-53F4-42DB-A7F4-B83AE1528D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14904B11-53F4-42DB-A7F4-B83AE1528D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14904B11-53F4-42DB-A7F4-B83AE1528D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14904B11-53F4-42DB-A7F4-B83AE1528D10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
