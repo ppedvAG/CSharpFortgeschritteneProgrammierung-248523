@@ -83,7 +83,7 @@ internal class ActionFunc
 
 		//Anonyme Methoden können bei beliebigen Delegates eingesetzt werden
 		zahlen.ForEach(e => Console.WriteLine(e));
-		zahlen.ForEach(Console.WriteLine);
+		zahlen.ForEach(Console.WriteLine); //Normale Anwendung von Delegates
 		zahlen.Where(e => e % 2 == 0);
 	}
 
