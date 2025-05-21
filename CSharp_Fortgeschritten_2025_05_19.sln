@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesEvents", "DelegatesEvents\DelegatesEvents.csproj", "{14904B11-53F4-42DB-A7F4-B83AE1528D10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqErweiterungsmethoden", "LinqErweiterungsmethoden\LinqErweiterungsmethoden.csproj", "{B7574CCA-77AC-4FB3-8F11-7A38D407D840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmarks\Benchmarks.csproj", "{6429D958-E0D8-4745-BF55-53A64E4F5B2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{14904B11-53F4-42DB-A7F4-B83AE1528D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14904B11-53F4-42DB-A7F4-B83AE1528D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14904B11-53F4-42DB-A7F4-B83AE1528D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7574CCA-77AC-4FB3-8F11-7A38D407D840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7574CCA-77AC-4FB3-8F11-7A38D407D840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7574CCA-77AC-4FB3-8F11-7A38D407D840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7574CCA-77AC-4FB3-8F11-7A38D407D840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6429D958-E0D8-4745-BF55-53A64E4F5B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6429D958-E0D8-4745-BF55-53A64E4F5B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6429D958-E0D8-4745-BF55-53A64E4F5B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6429D958-E0D8-4745-BF55-53A64E4F5B2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
