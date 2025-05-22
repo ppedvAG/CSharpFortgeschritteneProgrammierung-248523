@@ -20,7 +20,7 @@ public class Benchmarks
 	[IterationCount(20)]
 	public void TestLinq()
 	{
-		List<int> w1 = zahlen.Where(e => e % 2 == 0).ToList();
+		List<int> w1 = zahlen.Where(e => e % 2 == 0).AsParallel().ToList();
 	}
 
 	[Benchmark]
