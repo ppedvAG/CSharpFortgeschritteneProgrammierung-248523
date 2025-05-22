@@ -30,8 +30,8 @@ internal class Program
 		List<int> x = Enumerable.Range(1, 20).ToList();
 
 		//Erweiterungsmethoden
-		//Methoden, die an beliebige angehängt werden können
-		//Jede Linq Methode ist eine Erweiterungsmethoden
+		//Methoden, die an beliebige Typen angehängt werden können
+		//Jede Linq Methode ist eine Erweiterungsmethode
 		//Erkennung: Würfel mit Pfeil, (extension)
 		Console.WriteLine(x.Sum());
 		Console.WriteLine(x.Min());
@@ -154,6 +154,23 @@ internal class Program
 
 		Dictionary<FahrzeugMarke, List<Fahrzeug>> dict2 = group.ToDictionary(k => k.Key, v => v.ToList());
 		#endregion
+
+		#region	Erweiterungsmethoden
+		//Erweiterungsmethoden
+		//Methoden, die an beliebige Typen angehängt werden können
+		//Jede Linq Methode ist eine Erweiterungsmethode
+		//Erkennung: Würfel mit Pfeil, (extension)
+		int zahl = 10;
+		zahl.Quersumme();
+
+		Console.WriteLine(128476.Quersumme());
+
+		//Generiert vom Compiler:
+		ExtensionMethods.Quersumme(zahl);
+
+		//Eigene Linq-Funktion
+		fahrzeuge.Shuffle();
+		#endregion
 	}
 }
 
@@ -174,3 +191,18 @@ public record Fahrzeug(int MaxV, FahrzeugMarke Marke);
 //}
 
 public enum FahrzeugMarke { Audi, BMW, VW }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+public static class ExtensionMethods
+{
+	public static int Quersumme(this int x) //this Parameter: Beschreibt den Typen, auf den sich die Methode bezieht
+	{
+		return (int) x.ToString().Sum(char.GetNumericValue);
+	}
+
+	public static IEnumerable<T> Shuffle<T>(this IEnumerable<T> values)
+	{
+		return values.OrderBy(e => Random.Shared.Next());
+	}
+}
