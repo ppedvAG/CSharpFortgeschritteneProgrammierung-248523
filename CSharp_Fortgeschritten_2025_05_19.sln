@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmarks\Be
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialisierung", "Serialisierung\Serialisierung.csproj", "{85F8B597-56CF-4EF2-96B7-DC2FDACD2C04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{E887702C-91C0-4DC4-AD7E-F8BFB02B5B75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multitasking", "Multitasking\Multitasking.csproj", "{5C309E4F-7CE7-4980-9692-D2A614B36471}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{85F8B597-56CF-4EF2-96B7-DC2FDACD2C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85F8B597-56CF-4EF2-96B7-DC2FDACD2C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85F8B597-56CF-4EF2-96B7-DC2FDACD2C04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E887702C-91C0-4DC4-AD7E-F8BFB02B5B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E887702C-91C0-4DC4-AD7E-F8BFB02B5B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E887702C-91C0-4DC4-AD7E-F8BFB02B5B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E887702C-91C0-4DC4-AD7E-F8BFB02B5B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C309E4F-7CE7-4980-9692-D2A614B36471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C309E4F-7CE7-4980-9692-D2A614B36471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C309E4F-7CE7-4980-9692-D2A614B36471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C309E4F-7CE7-4980-9692-D2A614B36471}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
